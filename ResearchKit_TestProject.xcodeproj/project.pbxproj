@@ -16,6 +16,13 @@
 		833BD1761EC4C63A0071AD99 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 833BD1721EC4C5F30071AD99 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		833BD17C1EC4CA1D0071AD99 /* ConcentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD17B1EC4CA1D0071AD99 /* ConcentDocument.swift */; };
 		833BD17E1EC4CCA10071AD99 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD17D1EC4CCA10071AD99 /* ConsentTask.swift */; };
+		833BD1801EC4F9440071AD99 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD17F1EC4F9440071AD99 /* SurveyTask.swift */; };
+		833BD1881EC4FE0D0071AD99 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1821EC4FE0D0071AD99 /* blue.png */; };
+		833BD1891EC4FE0D0071AD99 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1831EC4FE0D0071AD99 /* green.png */; };
+		833BD18A1EC4FE0D0071AD99 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1841EC4FE0D0071AD99 /* orange.png */; };
+		833BD18B1EC4FE0D0071AD99 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1851EC4FE0D0071AD99 /* purple.png */; };
+		833BD18C1EC4FE0D0071AD99 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1861EC4FE0D0071AD99 /* red.png */; };
+		833BD18D1EC4FE0D0071AD99 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1871EC4FE0D0071AD99 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +75,13 @@
 		833BD17A1EC4C6C40071AD99 /* ResearchKit_TestProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResearchKit_TestProject.entitlements; sourceTree = "<group>"; };
 		833BD17B1EC4CA1D0071AD99 /* ConcentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentDocument.swift; sourceTree = "<group>"; };
 		833BD17D1EC4CCA10071AD99 /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		833BD17F1EC4F9440071AD99 /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		833BD1821EC4FE0D0071AD99 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = Ressources/color_circles/blue.png; sourceTree = "<group>"; };
+		833BD1831EC4FE0D0071AD99 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = Ressources/color_circles/green.png; sourceTree = "<group>"; };
+		833BD1841EC4FE0D0071AD99 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = Ressources/color_circles/orange.png; sourceTree = "<group>"; };
+		833BD1851EC4FE0D0071AD99 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple.png; path = Ressources/color_circles/purple.png; sourceTree = "<group>"; };
+		833BD1861EC4FE0D0071AD99 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = Ressources/color_circles/red.png; sourceTree = "<group>"; };
+		833BD1871EC4FE0D0071AD99 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = Ressources/color_circles/yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +116,12 @@
 		833BD1581EC4BFF40071AD99 /* ResearchKit_TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				833BD1811EC4FCEE0071AD99 /* Images */,
 				833BD17A1EC4C6C40071AD99 /* ResearchKit_TestProject.entitlements */,
 				833BD1591EC4BFF40071AD99 /* AppDelegate.swift */,
 				833BD15B1EC4BFF40071AD99 /* ViewController.swift */,
 				833BD17B1EC4CA1D0071AD99 /* ConcentDocument.swift */,
+				833BD17F1EC4F9440071AD99 /* SurveyTask.swift */,
 				833BD17D1EC4CCA10071AD99 /* ConsentTask.swift */,
 				833BD15D1EC4BFF40071AD99 /* Main.storyboard */,
 				833BD1601EC4BFF40071AD99 /* Assets.xcassets */,
@@ -122,6 +138,19 @@
 				833BD1741EC4C5F30071AD99 /* ResearchKitTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		833BD1811EC4FCEE0071AD99 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				833BD1821EC4FE0D0071AD99 /* blue.png */,
+				833BD1831EC4FE0D0071AD99 /* green.png */,
+				833BD1841EC4FE0D0071AD99 /* orange.png */,
+				833BD1851EC4FE0D0071AD99 /* purple.png */,
+				833BD1861EC4FE0D0071AD99 /* red.png */,
+				833BD1871EC4FE0D0071AD99 /* yellow.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +244,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				833BD1641EC4BFF40071AD99 /* LaunchScreen.storyboard in Resources */,
+				833BD18D1EC4FE0D0071AD99 /* yellow.png in Resources */,
 				833BD1611EC4BFF40071AD99 /* Assets.xcassets in Resources */,
+				833BD18B1EC4FE0D0071AD99 /* purple.png in Resources */,
+				833BD1891EC4FE0D0071AD99 /* green.png in Resources */,
 				833BD15F1EC4BFF40071AD99 /* Main.storyboard in Resources */,
+				833BD18C1EC4FE0D0071AD99 /* red.png in Resources */,
+				833BD1881EC4FE0D0071AD99 /* blue.png in Resources */,
+				833BD18A1EC4FE0D0071AD99 /* orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +264,7 @@
 			files = (
 				833BD15C1EC4BFF40071AD99 /* ViewController.swift in Sources */,
 				833BD17E1EC4CCA10071AD99 /* ConsentTask.swift in Sources */,
+				833BD1801EC4F9440071AD99 /* SurveyTask.swift in Sources */,
 				833BD15A1EC4BFF40071AD99 /* AppDelegate.swift in Sources */,
 				833BD17C1EC4CA1D0071AD99 /* ConcentDocument.swift in Sources */,
 			);

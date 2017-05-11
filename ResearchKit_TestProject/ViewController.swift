@@ -20,12 +20,20 @@ extension ViewController : ORKTaskViewControllerDelegate {
 
 class ViewController: UIViewController {
 
+    @IBAction func helloWorldTapped(_ sender: Any) {
+        showHelloWorld()
+    }
     @IBAction func consentTapped(_ sender: Any) {
         let taskViewController = ORKTaskViewController(task: ConsentTask, taskRun: nil)
         taskViewController.delegate = self
         present(taskViewController, animated: true, completion: nil)
     }
     
+    @IBAction func surveyTapped(_ sender: Any) {
+        let taskViewController = ORKTaskViewController(task: SurveyTask, taskRun: nil)
+        taskViewController.delegate = self
+        present(taskViewController, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -36,16 +44,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-//    func HelloWorld(){
-//        let step1 = ORKInstructionStep(identifier: "step1")
-//        step1.text = "Hello World"
-//        let step2 = ORKInstructionStep(identifier: "step 2")
-//        step2.text = "Bye"
-//        let task = ORKOrderedTask(identifier: "task", steps: [step1, step2])
-//        let taskViewController = ORKTaskViewController(task: task, taskRun: nil)
-//        taskViewController.delegate = self
-//        //presentedViewController(
-//    }
+    // example from researchkit book from gregi
+    func showHelloWorld(){
+        let step1 = ORKInstructionStep(identifier: "step1")
+        step1.text = "Hello World"
+        let step2 = ORKInstructionStep(identifier: "step 2")
+        step2.text = "Bye"
+        let task = ORKOrderedTask(identifier: "task", steps: [step1, step2])
+        let taskViewController = ORKTaskViewController(task: task, taskRun: nil)
+        taskViewController.delegate = self
+        present(taskViewController, animated: true, completion: nil)
+    }
 
 }
 
