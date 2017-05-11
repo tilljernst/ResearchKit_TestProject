@@ -23,6 +23,7 @@
 		833BD18B1EC4FE0D0071AD99 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1851EC4FE0D0071AD99 /* purple.png */; };
 		833BD18C1EC4FE0D0071AD99 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1861EC4FE0D0071AD99 /* red.png */; };
 		833BD18D1EC4FE0D0071AD99 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 833BD1871EC4FE0D0071AD99 /* yellow.png */; };
+		833BD18F1EC505860071AD99 /* ActiveTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD18E1EC505860071AD99 /* ActiveTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		833BD1851EC4FE0D0071AD99 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple.png; path = Ressources/color_circles/purple.png; sourceTree = "<group>"; };
 		833BD1861EC4FE0D0071AD99 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = Ressources/color_circles/red.png; sourceTree = "<group>"; };
 		833BD1871EC4FE0D0071AD99 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = Ressources/color_circles/yellow.png; sourceTree = "<group>"; };
+		833BD18E1EC505860071AD99 /* ActiveTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				833BD15B1EC4BFF40071AD99 /* ViewController.swift */,
 				833BD17B1EC4CA1D0071AD99 /* ConcentDocument.swift */,
 				833BD17F1EC4F9440071AD99 /* SurveyTask.swift */,
+				833BD18E1EC505860071AD99 /* ActiveTask.swift */,
 				833BD17D1EC4CCA10071AD99 /* ConsentTask.swift */,
 				833BD15D1EC4BFF40071AD99 /* Main.storyboard */,
 				833BD1601EC4BFF40071AD99 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				833BD15C1EC4BFF40071AD99 /* ViewController.swift in Sources */,
 				833BD17E1EC4CCA10071AD99 /* ConsentTask.swift in Sources */,
+				833BD18F1EC505860071AD99 /* ActiveTask.swift in Sources */,
 				833BD1801EC4F9440071AD99 /* SurveyTask.swift in Sources */,
 				833BD15A1EC4BFF40071AD99 /* AppDelegate.swift in Sources */,
 				833BD17C1EC4CA1D0071AD99 /* ConcentDocument.swift in Sources */,

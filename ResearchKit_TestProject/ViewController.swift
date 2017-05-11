@@ -34,6 +34,15 @@ class ViewController: UIViewController {
         taskViewController.delegate = self
         present(taskViewController, animated: true, completion: nil)
     }
+    @IBAction func microTapped(_ sender: Any) {
+        let taskViewController = ORKTaskViewController(task: MicrophoneTask, taskRun: nil)
+        taskViewController.delegate = self
+        taskViewController.outputDirectory = NSURL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] , isDirectory: true) as URL
+        present(taskViewController, animated: true, completion: nil)
+    }
+    
+    // -----------
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
