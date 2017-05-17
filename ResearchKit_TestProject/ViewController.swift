@@ -9,18 +9,10 @@
 import ResearchKit
 import UIKit
 
-extension ViewController : ORKTaskViewControllerDelegate {
-    
-    func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
-        //Handle results with taskViewController.result
-        taskViewController.dismiss(animated: true, completion: nil)
-    }
-    
-}
-
 class ViewController: UIViewController {
 
     @IBAction func helloWorldTapped(_ sender: Any) {
+        // Research-Taskaufruf direct und simple
         showHelloWorld()
     }
     @IBAction func consentTapped(_ sender: Any) {
@@ -41,13 +33,15 @@ class ViewController: UIViewController {
         present(taskViewController, animated: true, completion: nil)
     }
     
+    @IBAction func softwareititsTapped(_ sender: Any) {
+        self.showSurvey()
+    }
     // -----------
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -65,5 +59,19 @@ class ViewController: UIViewController {
         present(taskViewController, animated: true, completion: nil)
     }
 
+}
+
+//MARK: - ORKTaskViewController Delegate Methods
+extension ViewController : ORKTaskViewControllerDelegate {
+    
+    // wird aufgerufen, wenn task beendet wurde
+    func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
+        
+        //Handle results with taskViewController.result
+        processSurveyResults(taskViewController.result)
+        
+        taskViewController.dismiss(animated: true, completion: nil)
+    }
+    
 }
 

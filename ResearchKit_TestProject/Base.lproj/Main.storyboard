@@ -42,7 +42,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HelloWorld"/>
                                 <connections>
-                                    <action selector="helloWorldTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ewo-HU-hfg"/>
+                                    <action selector="helloWorldTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S43-PS-ZGD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="461-rR-4bg">
@@ -51,6 +51,14 @@
                                 <state key="normal" title="Micro"/>
                                 <connections>
                                     <action selector="microTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2X-v2-nk7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFP-oO-CgF">
+                                <rect key="frame" x="89" y="356" width="143" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Softwareitis Example"/>
+                                <connections>
+                                    <action selector="softwareititsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8l-c6-5jy"/>
                                 </connections>
                             </button>
                         </subviews>
