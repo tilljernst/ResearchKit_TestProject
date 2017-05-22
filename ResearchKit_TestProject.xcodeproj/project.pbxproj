@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		83322AFF1ECC4FD00005794F /* Survey_Softwareitis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83322AFE1ECC4FD00005794F /* Survey_Softwareitis.swift */; };
 		83322B301ED2E8AC0005794F /* TruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83322B2F1ED2E8AC0005794F /* TruitsTableViewController.swift */; };
+		83322B371ED2F52E0005794F /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83322B311ED2F52E0005794F /* Apple.jpg */; };
+		83322B381ED2F52E0005794F /* Apricot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83322B321ED2F52E0005794F /* Apricot.jpg */; };
+		83322B391ED2F52E0005794F /* Banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83322B331ED2F52E0005794F /* Banana.jpg */; };
+		83322B3A1ED2F52E0005794F /* Blueberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83322B341ED2F52E0005794F /* Blueberry.jpg */; };
+		83322B3B1ED2F52E0005794F /* Cantaloupe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83322B351ED2F52E0005794F /* Cantaloupe.jpg */; };
+		83322B3C1ED2F52E0005794F /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83322B361ED2F52E0005794F /* copyright.txt */; };
 		833BD15A1EC4BFF40071AD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD1591EC4BFF40071AD99 /* AppDelegate.swift */; };
 		833BD15C1EC4BFF40071AD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD15B1EC4BFF40071AD99 /* ViewController.swift */; };
 		833BD15F1EC4BFF40071AD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BD15D1EC4BFF40071AD99 /* Main.storyboard */; };
@@ -69,6 +75,12 @@
 /* Begin PBXFileReference section */
 		83322AFE1ECC4FD00005794F /* Survey_Softwareitis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey_Softwareitis.swift; sourceTree = "<group>"; };
 		83322B2F1ED2E8AC0005794F /* TruitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruitsTableViewController.swift; sourceTree = "<group>"; };
+		83322B311ED2F52E0005794F /* Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Apple.jpg; path = "Ressources/fruit-images/Apple.jpg"; sourceTree = "<group>"; };
+		83322B321ED2F52E0005794F /* Apricot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Apricot.jpg; path = "Ressources/fruit-images/Apricot.jpg"; sourceTree = "<group>"; };
+		83322B331ED2F52E0005794F /* Banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Banana.jpg; path = "Ressources/fruit-images/Banana.jpg"; sourceTree = "<group>"; };
+		83322B341ED2F52E0005794F /* Blueberry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Blueberry.jpg; path = "Ressources/fruit-images/Blueberry.jpg"; sourceTree = "<group>"; };
+		83322B351ED2F52E0005794F /* Cantaloupe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cantaloupe.jpg; path = "Ressources/fruit-images/Cantaloupe.jpg"; sourceTree = "<group>"; };
+		83322B361ED2F52E0005794F /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = copyright.txt; path = "Ressources/fruit-images/copyright.txt"; sourceTree = "<group>"; };
 		833BD1561EC4BFF40071AD99 /* ResearchKit_TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResearchKit_TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833BD1591EC4BFF40071AD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833BD15B1EC4BFF40071AD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +172,12 @@
 		833BD1811EC4FCEE0071AD99 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				83322B311ED2F52E0005794F /* Apple.jpg */,
+				83322B321ED2F52E0005794F /* Apricot.jpg */,
+				83322B331ED2F52E0005794F /* Banana.jpg */,
+				83322B341ED2F52E0005794F /* Blueberry.jpg */,
+				83322B351ED2F52E0005794F /* Cantaloupe.jpg */,
+				83322B361ED2F52E0005794F /* copyright.txt */,
 				833BD1821EC4FE0D0071AD99 /* blue.png */,
 				833BD1831EC4FE0D0071AD99 /* green.png */,
 				833BD1841EC4FE0D0071AD99 /* orange.png */,
@@ -262,12 +280,18 @@
 			files = (
 				833BD1641EC4BFF40071AD99 /* LaunchScreen.storyboard in Resources */,
 				833BD18D1EC4FE0D0071AD99 /* yellow.png in Resources */,
+				83322B371ED2F52E0005794F /* Apple.jpg in Resources */,
 				833BD1611EC4BFF40071AD99 /* Assets.xcassets in Resources */,
 				833BD18B1EC4FE0D0071AD99 /* purple.png in Resources */,
 				833BD1891EC4FE0D0071AD99 /* green.png in Resources */,
 				833BD15F1EC4BFF40071AD99 /* Main.storyboard in Resources */,
+				83322B3B1ED2F52E0005794F /* Cantaloupe.jpg in Resources */,
 				833BD18C1EC4FE0D0071AD99 /* red.png in Resources */,
 				833BD1881EC4FE0D0071AD99 /* blue.png in Resources */,
+				83322B3C1ED2F52E0005794F /* copyright.txt in Resources */,
+				83322B381ED2F52E0005794F /* Apricot.jpg in Resources */,
+				83322B391ED2F52E0005794F /* Banana.jpg in Resources */,
+				83322B3A1ED2F52E0005794F /* Blueberry.jpg in Resources */,
 				833BD18A1EC4FE0D0071AD99 /* orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
