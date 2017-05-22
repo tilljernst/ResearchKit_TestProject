@@ -9,7 +9,7 @@
 import ResearchKit
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
 
     @IBAction func helloWorldTapped(_ sender: Any) {
         // Research-Taskaufruf direct und simple
@@ -36,6 +36,27 @@ class ViewController: UIViewController {
     @IBAction func softwareititsTapped(_ sender: Any) {
         self.showSurvey()
     }
+    
+    // Mark: TableView
+    @IBOutlet weak var tableView: UITableView!
+    
+    let entries = ["iOS mit Swift", "Swift Tutorial", "Swift lernen"]
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return entries.count
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView,
+                   cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myTableCell", for: indexPath as IndexPath) 
+        cell.textLabel?.text = entries[indexPath.row]
+        
+        return cell
+    }
+    
     // -----------
     override func viewDidLoad() {
         super.viewDidLoad()

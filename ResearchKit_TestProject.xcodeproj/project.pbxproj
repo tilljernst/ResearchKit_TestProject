@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		83322AFF1ECC4FD00005794F /* Survey_Softwareitis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83322AFE1ECC4FD00005794F /* Survey_Softwareitis.swift */; };
+		83322B301ED2E8AC0005794F /* TruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83322B2F1ED2E8AC0005794F /* TruitsTableViewController.swift */; };
 		833BD15A1EC4BFF40071AD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD1591EC4BFF40071AD99 /* AppDelegate.swift */; };
 		833BD15C1EC4BFF40071AD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BD15B1EC4BFF40071AD99 /* ViewController.swift */; };
 		833BD15F1EC4BFF40071AD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BD15D1EC4BFF40071AD99 /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		83322AFE1ECC4FD00005794F /* Survey_Softwareitis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey_Softwareitis.swift; sourceTree = "<group>"; };
+		83322B2F1ED2E8AC0005794F /* TruitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruitsTableViewController.swift; sourceTree = "<group>"; };
 		833BD1561EC4BFF40071AD99 /* ResearchKit_TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResearchKit_TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833BD1591EC4BFF40071AD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833BD15B1EC4BFF40071AD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				833BD18E1EC505860071AD99 /* ActiveTask.swift */,
 				833BD17D1EC4CCA10071AD99 /* ConsentTask.swift */,
 				833BD15D1EC4BFF40071AD99 /* Main.storyboard */,
+				83322B2F1ED2E8AC0005794F /* TruitsTableViewController.swift */,
 				833BD1601EC4BFF40071AD99 /* Assets.xcassets */,
 				833BD1621EC4BFF40071AD99 /* LaunchScreen.storyboard */,
 				833BD1651EC4BFF40071AD99 /* Info.plist */,
@@ -280,6 +283,7 @@
 				83322AFF1ECC4FD00005794F /* Survey_Softwareitis.swift in Sources */,
 				833BD17E1EC4CCA10071AD99 /* ConsentTask.swift in Sources */,
 				833BD18F1EC505860071AD99 /* ActiveTask.swift in Sources */,
+				83322B301ED2E8AC0005794F /* TruitsTableViewController.swift in Sources */,
 				833BD1801EC4F9440071AD99 /* SurveyTask.swift in Sources */,
 				833BD15A1EC4BFF40071AD99 /* AppDelegate.swift in Sources */,
 				833BD17C1EC4CA1D0071AD99 /* ConcentDocument.swift in Sources */,
